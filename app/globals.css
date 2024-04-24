@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.name {
+  line-height: 4rem;
+}
+.clip-path {
+  clip-path: polygon(50% 0%, 100% 0, 100% 85%, 51% 100%, 0 85%, 0% 60%, 0 0);
+}
+.reservee {
+  background-image: url(./reserve/bg-black.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
