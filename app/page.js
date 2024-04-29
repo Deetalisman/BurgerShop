@@ -8,12 +8,13 @@ import Ourchef from "./ourchef/page";
 import Reserve from "./reserve/page";
 import Joinus from "./joinus/page";
 import Foot from "./foot/page";
+import Mobilemenu from "./mobilemenu/page";
+import Allhome from "./allhome/page";
 
 export default function Home() {
   return (
     <main className="bg-[rgb(244,241,234)]">
-      <Menubar />
-      <Homepage />
+      <Allhome />
       <Madeburger />
       <Ourburger />
       <Delivery />

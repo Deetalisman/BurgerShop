@@ -25,11 +25,11 @@ const responsive = {
 function Ourburger() {
   return (
     <div className="mt-20  mb-8">
-      <h1 className="text-4xl font-bold text-center leading-[3rem]">
+      <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center leading-[3rem]">
         OUR POPULAR
         <span className="text-red-600 ml-3">BURGER</span>
       </h1>
-      <div className="mt-10 px-28">
+      <div className="mt-10  px-16 md:px-28">
         <Carousel
           additionalTransform={0}
           arrows={true}
@@ -41,8 +41,14 @@ function Ourburger() {
           itemClass="item"
           showDots={false}
         >
-          <div className="p-6 bg-white w-[16rem] rounded-lg">
-            <Image src="/b1.png" width={200} height={100} alt="burg" />
+          <div className="p-6 bg-white w-[100%] md:w-[90%] rounded-lg">
+            <Image
+              src="/b1.png"
+              className="mx-auto"
+              width={200}
+              height={100}
+              alt="burg"
+            />
             <p className="font-semibold mt-3">Beefy Bite</p>
             <div className="mt-2 flex">
               <aside className="flex">
@@ -67,8 +73,14 @@ function Ourburger() {
               </button>
             </div>
           </div>
-          <div className="p-6 bg-white w-[16rem] rounded-lg">
-            <Image src="/b2.png" width={200} height={100} alt="burg" />
+          <div className="p-6 bg-white w-[100%] md:w-[90%] rounded-lg">
+            <Image
+              src="/b2.png"
+              className="mx-auto"
+              width={200}
+              height={100}
+              alt="burg"
+            />
             <p className="font-semibold mt-3">Beefy Bite</p>
             <div className="mt-2 flex">
               <aside className="flex">
@@ -93,8 +105,14 @@ function Ourburger() {
               </button>
             </div>
           </div>
-          <div className="p-6 bg-white w-[16rem] rounded-lg">
-            <Image src="/b3.png" width={200} height={100} alt="burg" />
+          <div className="p-6 bg-white w-[100%] md:w-[90%] rounded-lg">
+            <Image
+              src="/b3.png"
+              className="mx-auto"
+              width={200}
+              height={100}
+              alt="burg"
+            />
             <p className="font-semibold mt-3">Beefy Bite</p>
             <div className="mt-2 flex">
               <aside className="flex">
@@ -119,10 +137,10 @@ function Ourburger() {
               </button>
             </div>
           </div>
-          <div className="p-6 bg-white w-[16rem] h-[26rem] rounded-lg">
+          <div className="p-6 bg-white w-[100%] md:w-[90%] h-[26rem] rounded-lg">
             <Image
               src="/b4.png"
-              className="mt-10"
+              className="mt-10 mx-auto"
               width={200}
               height={100}
               alt="burg"
@@ -151,8 +169,14 @@ function Ourburger() {
               </button>
             </div>
           </div>
-          <div className="p-6 bg-white w-[16rem] rounded-lg">
-            <Image src="/b5.png" width={200} height={100} alt="burg" />
+          <div className="p-6 bg-white w-[100%] md:w-[90%] rounded-lg">
+            <Image
+              src="/b5.png"
+              className="mx-auto"
+              width={200}
+              height={100}
+              alt="burg"
+            />
             <p className="font-semibold mt-3">Beefy Bite</p>
             <div className="mt-2 flex">
               <aside className="flex">
@@ -177,8 +201,14 @@ function Ourburger() {
               </button>
             </div>
           </div>
-          <div className="p-6 bg-white w-[16rem] rounded-lg">
-            <Image src="/b6.png" width={200} height={100} alt="burg" />
+          <div className="p-6 bg-white w-[100%] md:w-[90%] rounded-lg">
+            <Image
+              src="/b6.png"
+              width={200}
+              height={100}
+              alt="burg"
+              className="mx-auto"
+            />
             <p className="font-semibold mt-3">Beefy Bite</p>
             <div className="mt-2 flex">
               <aside className="flex">

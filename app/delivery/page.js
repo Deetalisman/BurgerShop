@@ -4,10 +4,16 @@ import { IoFastFood } from "react-icons/io5";
 import { BsDoorOpen } from "react-icons/bs";
 function Delivery() {
   return (
-    <div className="mt-16 px-28 flex">
-      <Image src="/delivery.svg" width={600} height={350} alt="deliver" />
+    <div className=" lg:flex mt-16 px-10 md:px-16 xl:px-28 ">
+      <Image
+        className="lg:mx-0 mx-auto"
+        src="/delivery.svg"
+        width={600}
+        height={350}
+        alt="deliver"
+      />
       <aside className="ml-5 mt-10">
-        <p className="text-4xl font-bold leading-[3.5rem]">
+        <p className="text-[1.3rem] md:text-2xl lg:text-4xl font-bold leading-[2.5rem] lg:leading-[3.5rem]">
           YOUR <span className="text-red-600">FAVORITE BURGER</span>
           <br></br> ON THE WAY
         </p>

@@ -5,9 +5,9 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 function Foot() {
   return (
-    <div className="py-10 mt-10 px-32 bg-gray-900 text-white">
-      <aside className="flex justify-between pb-7 border-b-2 border-gray-500">
-        <div className="w-[20rem]">
+    <div className="py-10 mt-10 px-24 xl:px-32 bg-gray-900 text-white">
+      <aside className="flex flex-wrap justify-between pb-7 border-b-2 border-gray-500">
+        <div className="w-[100%] md:w-[46%] lg:w-[20rem]">
           <div className="flex mt-2">
             <FaHamburger className="text-2xl text-orange-500" />
             <h1 className="ml-2 text-xl font-semibold">BurgerBite</h1>
@@ -21,7 +21,7 @@ function Foot() {
           </p>
           <p className="text-red-300 mt-2">+(123)2458 8789</p>
         </div>
-        <div>
+        <div className="w-[100%] md:w-[46%] lg:w-[20rem]  lg:mt-0 mt-8">
           <p className="font-semibold">Products</p>
           <article className="flex flex-col space-y-4 text-[0.8rem] mt-8">
             <Link className="text-gray-500" href="/">
@@ -41,7 +41,7 @@ function Foot() {
             </Link>
           </article>
         </div>
-        <div>
+        <div className="w-[100%] md:w-[46%] lg:w-[20rem] lg:mt-0 mt-8">
           <p className="font-semibold">Quick Links</p>
           <article className="flex flex-col space-y-4 text-[0.8rem] mt-8">
             <Link className="text-gray-500" href="/">
@@ -61,7 +61,7 @@ function Foot() {
             </Link>
           </article>
         </div>
-        <div>
+        <div className="w-[100%] md:w-[46%] lg:w-[20rem] lg:mt-0 mt-8">
           <p className="font-semibold">OPENING HOURS</p>
           <p className="text-[0.8rem] mt-8">
             Monday-Friday:<span className="text-yellow-300">8am -4pm</span>

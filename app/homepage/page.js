@@ -34,41 +34,53 @@ function Homepage() {
       itemClass="item"
       showDots={true}
     >
-      <div className="w-[100%] clip-path flex justify-center h-[88vh] text-white bg-blue-950">
-        <Image src="/b1.png" width={600} height={200} alt="b1" />
-        <aside className=" mt-36 w-[40%]">
+      <div className="w-[100%] md:clip-path flex justify-center h-[88vh] text-white bg-blue-950">
+        <Image
+          className="lg:block hidden lg:w-[37rem] lg:mt-0 mt-20 lg:h-[35rem] w-[23rem] h-[22rem]"
+          src="/b1.png"
+          width={600}
+          height={200}
+          alt="b1"
+        />
+        <aside className="md:mt-20 mt-32 lg:mt-36 lg:pl-0 pl-10 w-[100%] lg:w-[40%]">
           <p className="text-[1.5rem] font-semibold text-yellow-300">
             Fast Food Burger
           </p>
-          <h1 className="text-[4rem] leading-[5rem] mt-2 font-extrabold name">
+          <h1 className="text-[4rem] leading-[5rem] mt-2 font-extrabold">
             BEST <br></br> BURGERS
           </h1>
-          <p className="mt-3">
+          <p className=" lg:text-base text-gray-400 leading-[1.5rem] text-[0.8rem] lg:w-[100%] w-[90%]  mt-3">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
             fugiat a sint officiis sequi iusto eos quia laudantium. Odio
             perferendis magni quaerat, cupiditate quibusdam soluta.
           </p>
-          <button className="bg-green-400 mt-6 flex hover:bg-red-600 text-white px-6 py-3 rounded-md">
+          <button className="bg-green-400 mt-6 flex hover:bg-red-600 text-white lg:px-6  px-3 py-3 rounded-md">
             <BiCycling className="text-white text-[1.5rem]" />
             <p className="text-[0.75rem] ml-2 mt-1">Order Now</p>
           </button>
         </aside>
       </div>
-      <div className="w-[100%] clip-path flex justify-center h-[88vh] text-white bg-red-950">
-        <Image src="/b2.png" width={600} height={200} alt="b1" />
-        <aside className=" mt-36 w-[40%]">
+      <div className="w-[100%] md:clip-path flex justify-center h-[88vh] text-white bg-red-950">
+        <Image
+          className="lg:block hidden lg:w-[37rem] lg:mt-0 mt-20 lg:h-[35rem] w-[23rem] h-[22rem]"
+          src="/b2.png"
+          width={600}
+          height={200}
+          alt="b1"
+        />
+        <aside className="lg:pl-0 pl-10 md:mt-20 mt-32 lg:mt-36 w-[100%] lg:w-[40%]">
           <p className="text-[1.5rem] font-semibold text-yellow-300">
             Tasty Burger
           </p>
-          <h1 className="text-[4rem] leading-[5rem] mt-2 font-extrabold name">
+          <h1 className="text-[4rem] leading-[5rem] mt-2 font-extrabold ">
             TOP <br></br> BURGERS
           </h1>
-          <p className="mt-3">
+          <p className="lg:text-base text-[0.8rem] text-gray-400 mt-3 lg:w-[100%] w-[90%] leading-[1.5rem] ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
             fugiat a sint officiis sequi iusto eos quia laudantium. Odio
             perferendis magni quaerat, cupiditate quibusdam soluta.
           </p>
-          <button className="bg-blue-500 mt-6 flex hover:bg-red-600 text-white px-6 py-3 rounded-md">
+          <button className="bg-blue-500 mt-6 flex hover:bg-red-600 text-white lg:px-6  px-3 py-3 rounded-md">
             <BiCycling className="text-white text-[1.5rem]" />
             <p className="text-[0.75rem] ml-2 mt-1">Order Now</p>
           </button>

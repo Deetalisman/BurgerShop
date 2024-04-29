@@ -1,7 +1,7 @@
 function Joinus() {
   return (
-    <div className="text-center mt-20 px-28">
-      <h1 className="text-3xl font-bold leading-[3rem]">
+    <div className="text-center mt-20 px-10 md:px-28">
+      <h1 className="text-2xl md:text-3xl font-bold leading-[3rem]">
         JOIN FOR HOT
         <span className="text-red-600 ml-2">OFFERS</span>
       </h1>
@@ -11,7 +11,7 @@ function Joinus() {
       </p>
       <aside className="mt-5">
         <input
-          className="text-[0.7rem] outline-none w-[25rem] text-black bg-slate-500 p-3 rounded-md"
+          className="text-[0.7rem] outline-none w-[15em] md:w-[25rem] text-black bg-slate-500 p-3 rounded-md"
           type="text"
           placeholder="Enter Address"
         />
