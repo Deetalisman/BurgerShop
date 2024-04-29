@@ -10,11 +10,11 @@ function Menubar({ setmobilenav }) {
     console.log("opened");
   }
   return (
-    <div className=" flex lg:px-16 px-7 py-4 justify-between">
+    <div className=" flex lg:px-16 px-2 md:px-7 py-4 justify-between">
       {/* Logo */}
       <div className="flex mt-2">
         <FaHamburger className=" text-[1.55rem] lg:text-3xl text-orange-500" />
-        <h1 className="ml-2 text-[1.3rem] lg:text-2xl font-semibold">
+        <h1 className="ml-2 text-[1.1rem] md:text-[1.3rem] lg:text-2xl font-semibold">
           BurgerBite
         </h1>
       </div>
@@ -52,12 +52,12 @@ function Menubar({ setmobilenav }) {
           <BiCycling className="text-white text-[1.4rem]" />
           <p className="text-[0.7rem] ml-2 mt-1">Order Now</p>
         </button>
-        <button className="bg-orange-600 ml-3 text-white px-4 py-2 rounded-md">
+        <button className="bg-orange-600 ml-1 md:ml-3 text-white px-4 py-2 rounded-md">
           <BiShoppingBag className="text-white text-[1.4rem]" />
         </button>
         <HiMiniBars3BottomRight
           onClick={handlemobilenav}
-          className="md:hidden cursor-pointer block text-3xl ml-4"
+          className="md:hidden cursor-pointer block text-3xl ml-2 md:ml-4"
         />
       </div>
     </div>

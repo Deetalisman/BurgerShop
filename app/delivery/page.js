@@ -4,7 +4,7 @@ import { IoFastFood } from "react-icons/io5";
 import { BsDoorOpen } from "react-icons/bs";
 function Delivery() {
   return (
-    <div className=" lg:flex mt-16 px-10 md:px-16 xl:px-28 ">
+    <div className=" lg:flex mt-16 px-5 md:px-16 xl:px-28 ">
       <Image
         className="lg:mx-0 mx-auto"
         src="/delivery.svg"

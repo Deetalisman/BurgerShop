@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 function Foot() {
   return (
-    <div className="py-10 mt-10 px-24 xl:px-32 bg-gray-900 text-white">
+    <div className="py-10 mt-10 px-10 md:px-24 xl:px-32 bg-gray-900 text-white">
       <aside className="flex flex-wrap justify-between pb-7 border-b-2 border-gray-500">
         <div className="w-[100%] md:w-[46%] lg:w-[20rem]">
           <div className="flex mt-2">

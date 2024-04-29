@@ -8,9 +8,9 @@ function Mobilemenu({ setmobilenav }) {
     console.log("closed");
   }
   return (
-    <div className="absolute z-50 flex justify-between w-[100%] h-[100vh] top bottom-0 left-0 right-0 bg-[#000000a6]">
+    <div className=" fixed z-50 flex justify-between w-[100%] h-[100vh] top bottom-0 left-0 right-0 bg-[#000000a6]">
       <aside className=" bg-green-500 w-[75%] h-[100vh]">
-        <ul className=" lg:text-base text-center text-white space-y-12 lg:space-x-9 space-x-4 font-semibold mt-10 lg:mt-2">
+        <ul className=" lg:text-base text-center text-white space-y-12 lg:space-x-9 space-x-4 font-semibold mt-28 lg:mt-2">
           <li>
             <Link href="/" className="hover:text-red-500">
               Home

@@ -34,7 +34,7 @@ function Homepage() {
       itemClass="item"
       showDots={true}
     >
-      <div className="w-[100%] md:clip-path flex justify-center h-[88vh] text-white bg-blue-950">
+      <div className="w-[100%] md:clip-path flex justify-center h-[80vh] md:h-[88vh] text-white bg-blue-950">
         <Image
           className="lg:block hidden lg:w-[37rem] lg:mt-0 mt-20 lg:h-[35rem] w-[23rem] h-[22rem]"
           src="/b1.png"
@@ -60,7 +60,7 @@ function Homepage() {
           </button>
         </aside>
       </div>
-      <div className="w-[100%] md:clip-path flex justify-center h-[88vh] text-white bg-red-950">
+      <div className="w-[100%] lg:clip-path flex justify-center h-[88vh] text-white bg-red-950">
         <Image
           className="lg:block hidden lg:w-[37rem] lg:mt-0 mt-20 lg:h-[35rem] w-[23rem] h-[22rem]"
           src="/b2.png"
