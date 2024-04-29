@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import { FaHamburger } from "react-icons/fa";
 import { BiCycling } from "react-icons/bi";
