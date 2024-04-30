@@ -21,7 +21,7 @@ function Foot() {
           </p>
           <p className="text-red-300 mt-2">+(123)2458 8789</p>
         </div>
-        <div className="w-[100%] md:w-[46%] lg:w-[20rem]  lg:mt-0 mt-8">
+        <div className="w-[100%] md:w-[46%] lg:w-[20rem] md:mt-0  mt-8">
           <p className="font-semibold">Products</p>
           <article className="flex flex-col space-y-4 text-[0.8rem] mt-8">
             <Link className="text-gray-500" href="/">

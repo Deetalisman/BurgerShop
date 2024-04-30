@@ -10,7 +10,9 @@ function Allhome() {
     <div className="relative">
       <Menubar setmobilenav={setmobilenav} />
       <Homepage />
-      {mobilenav && <Mobilemenu setmobilenav={setmobilenav} />}
+      {mobilenav && (
+        <Mobilemenu setmobilenav={setmobilenav} mobilenav={mobilenav} />
+      )}
     </div>
   );
 }

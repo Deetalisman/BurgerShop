@@ -23,7 +23,7 @@ function Reserve() {
             </aside>
           </div>
         </aside>
-        <aside className="text-center lg:mt-0 mt-10 ml-0 lg:ml-10 pt-14 w-[100%] lg:w-[45%] h-[29rem]  md:h-[33rem] rounded-md bg-green-600 px-4 py-2 md:p-6">
+        <aside className="text-center lg:mt-0 mt-10 ml-0 lg:ml-10 pt-14 w-[100%] lg:w-[45%] h-[31rem]  lg:h-[33rem] rounded-md bg-green-600 px-[10%]  md:px-[20%] py-2 lg:p-6">
           <GrRestaurant className="text-[4rem] md:text-[5rem] mx-auto" />
           <h1 className="text-2xl md:text-3xl font-semibold mt-5">
             RESERVATION
